@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Plot from 'react-plotly.js'
 
-class GraficoLinha extends Component {
+class Grafico extends Component {
     constructor(props) {
         super(props);
     
@@ -41,7 +41,7 @@ class GraficoLinha extends Component {
                             title: this.props.y_axis_title,
                             autorange: true,
                             tickfont: {
-                                size: this.props.tick_font_size
+                              size: this.props.tick_font_size
                             },
                             range: [1, 24],
                             type: this.props.y_data_type
@@ -54,4 +54,4 @@ class GraficoLinha extends Component {
     
 }
 
-export default GraficoLinha;
+export default Grafico;
