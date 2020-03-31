@@ -59,4 +59,4 @@ foo@bar:~$ npm start
 * Um pdf da tela do frontend está disponível [aqui](https://github.com/Dienert/relatorio_2_db/blob/master/relatorio.pdf).
 * **Obs.:** Em todos os gráficos é possível selecionar uma faixa específica dos dados cliando com o mouse e arrastando. Essa funcionalidade é bem útil principalmente para o gráfico de Vendas por Mês que possui muitas informações. Sendo possível visualizar meses específicos, dessa forma:
 
-![Vendas por Mês](/imagens/vendas_por_mes.png)
+![Vendas por Mês](https://raw.githubusercontent.com/Dienert/relatorio_2_db/master/imagens/venas_por_mes.gif)
