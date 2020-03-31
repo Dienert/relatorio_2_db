@@ -16,7 +16,7 @@ foo@bar:~$ psql -U postgres teste < dados/PostgreSQL-dump-store-202002051505.sql
 ```
 * Executar o seguinte comando na linha de comando para restaurar o banco do MySQL
 ```console
-foo@bar:~$ mysql -h 127.0.0.1 -u root -p teste < dados.MYSQL_tasks_05-02-20_data.sql
+foo@bar:~$ mysql -h 127.0.0.1 -u root -p teste < dados/MYSQL_tasks_05-02-20_data.sql
 ```
 
 ### 2. Explorando os dados usando Jupyter Notebook
