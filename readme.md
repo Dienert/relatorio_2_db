@@ -37,7 +37,7 @@ C:\>set FLASK_APP=main
 ```console
 foo@bar:~$ export FLASK_APP=main
 ```
-* Iniciar o backend com os seguintes comando:
+* Iniciar o backend com os seguintes comandos:
 ```console
 foo@bar:~$ cd backend
 foo@bar:~$ flask run
@@ -46,7 +46,7 @@ foo@bar:~$ flask run
 
 ### 4. Rodando o Frontend
 * Instalar o [Node.js](https://nodejs.org/en/)
-* Instalar as dependências do Frontend com os seguintes comando:
+* Instalar as dependências do Frontend com os seguintes comandos:
 ```console
 foo@bar:~$ cd frontend
 foo@bar:~$ npm install
