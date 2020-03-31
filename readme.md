@@ -21,8 +21,8 @@ foo@bar:~$ mysql -h 127.0.0.1 -u root -p teste < dados.MYSQL_tasks_05-02-20_data
 
 ### 2. Explorando os dados usando Jupyter Notebook
 * Executar a exploração feita no Jupyter Notebook: [Explocação Inicial.ipynb](https://github.com/Dienert/relatorio_2_db/blob/master/Explora%C3%A7%C3%A3o%20inicial.ipynb)
-**Obs. 1:** Para que os gráficos usando Plotly aparecem é necessário executar o notebook localmente.
-**Obs. 2:** No fim do notebook é gerado o arquivo **dados/tudo.csv** que é usado pelo backend
+* **Obs. 1:** Para que os gráficos usando Plotly aparecem é necessário executar o notebook localmente.
+* **Obs. 2:** No fim do notebook é gerado o arquivo **dados/tudo.csv** que é usado pelo backend
 
 ### 3. Rodando o Backend
 * Instalar as dependências do backend com o seguinte comando:
@@ -56,3 +56,4 @@ foo@bar:~$ npm install
 foo@bar:~$ npm start
 ```
 * Iniciar a aplicação no endereço: http://localhost:3000/
+* Um pdf da tela do frontend está disponível [aqui](https://github.com/Dienert/relatorio_2_db/blob/master/relatorio.pdf).
