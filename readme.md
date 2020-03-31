@@ -1,7 +1,7 @@
 ## Exploração de 2 bases de dados diferentes
  ### Esse trabalho consiste em:
 1. Restaurar 1 dump do MySql e 1 dump do PostgreSQL
-2. Explorar os dados usando Jupyter Notebook com as bibliotecas Python: Pandas, Matplotlib e PLotly
+2. Explorar os dados usando Jupyter Notebook com as bibliotecas Python: Pandas, Matplotlib e Plotly
 3. Criar um backend usando Flask + Swagger que forneça os dados para visualizações no frontend
 4. Criar um frontend usando React + Plotly para a apresentação de um relatório web 
 
