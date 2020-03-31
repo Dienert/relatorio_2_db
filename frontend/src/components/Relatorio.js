@@ -1,0 +1,77 @@
+import React, { Component } from 'react';
+import GraficoLinha from './GraficoLinha'
+
+class Relatorio extends Component {
+
+    render() {
+        return (
+          <div>
+              <GraficoLinha api='http://localhost:5000/vendasanuais'
+                            title="Vendas por ano"
+                            x_axis_title="Anos"
+                            y_axis_title="Vendas ($)"
+                            x_data_type="date"
+                            graph_type="scatter"
+                            rangeslider={{}}
+              />
+              <br />
+              <GraficoLinha api='http://localhost:5000/vendasmensais'
+                            title="Vendas por mês"
+                            x_axis_title="Mês"
+                            y_axis_title="Vendas ($)"
+                            x_data_type="date"
+                            graph_type="scatter"
+                            rangeslider={{}}
+            />
+            <GraficoLinha api='http://localhost:5000/vendaspordia'
+                            title="Vendas por dia da semana"
+                            x_axis_title="Dia da Semana"
+                            y_axis_title="Vendas ($)"
+                            x_data_type="category"
+                            graph_type="scatter"
+                            rangeslider={{}}
+            />
+              <GraficoLinha api='http://localhost:5000/vendasporhora'
+                            title="Vendas por Hora do Dia"
+                            x_axis_title="Hora do Dia"
+                            y_axis_title="Vendas ($)"
+                            x_data_type="category"
+                            graph_type="scatter"
+                            rangeslider={{}}                
+              />
+            <GraficoLinha api='http://localhost:5000/produtosmaiscomprados'
+                            title="10 Produtos Mais Comprados"
+                            x_axis_title="Frequência"
+                            y_data_type="category"
+                            graph_type="bar"
+                            tick_font_size={9.5}
+            />
+            <GraficoLinha api='http://localhost:5000/produtosmaiorreceita'
+                            title="10 Produtos de Maior Receita"
+                            x_axis_title="Receita"
+                            y_data_type="category"
+                            graph_type="bar"
+                            tick_font_size={9.5}
+              />
+              <GraficoLinha api='http://localhost:5000/clientesmaisfrequentes'
+                            title="10 Clientes Mais Frequentes"
+                            x_axis_title="Frequência"
+                            y_data_type="category"
+                            graph_type="bar"
+                            tick_font_size={9.5}
+              />
+              <GraficoLinha api='http://localhost:5000/clientesmaiscompram'
+                            title="10 Clientes que mais compram"
+                            x_axis_title="Soma das compras ($)"
+                            y_data_type="category"
+                            y_title_standoff={25}
+                            graph_type="bar"
+                            tick_font_size={9.5}
+              />
+          </div>
+        );
+      }
+    
+}
+
+export default Relatorio;
