@@ -21,7 +21,7 @@ foo@bar:~$ mysql -h 127.0.0.1 -u root -p teste < dados.MYSQL_tasks_05-02-20_data
 
 ### 2. Explorando os dados usando Jupyter Notebook
 * Executar a exploração feita no Jupyter Notebook: [Explocação Inicial.ipynb](https://github.com/Dienert/relatorio_2_db/blob/master/Explora%C3%A7%C3%A3o%20inicial.ipynb)
-* **Obs. 1:** Para que os gráficos usando Plotly aparecem é necessário executar o notebook localmente.
+* **Obs. 1:** Para que os gráficos usando Plotly apareçam é necessário executar o notebook localmente.
 * **Obs. 2:** No fim do notebook é gerado o arquivo **dados/tudo.csv** que é usado pelo backend
 
 ### 3. Rodando o Backend
