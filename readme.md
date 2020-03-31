@@ -57,3 +57,4 @@ foo@bar:~$ npm start
 ```
 * Iniciar a aplicação no endereço: http://localhost:3000/
 * Um pdf da tela do frontend está disponível [aqui](https://github.com/Dienert/relatorio_2_db/blob/master/relatorio.pdf).
+* **Obs.:** Em todos os gráficos é possível selecionar uma faixa específica dos dados cliando com o mouse e arrastando. Essa funcionalidade é bem útil principalmente para o gráfico de Vendas por Mês que possui muitas informações. Sendo possível visualizar meses específicos.
