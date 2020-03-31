@@ -30,7 +30,7 @@ class Grafico extends Component {
                 ]}
                 layout={ {title: this.props.title,
                             showlegend: false,
-                            width: 650, height: 400,
+                            width: this.props.width, height: 400,
                             xaxis: {
                             title: this.props.x_axis_title,
                             autorange: true,
